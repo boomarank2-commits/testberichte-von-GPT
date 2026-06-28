@@ -1,0 +1,10 @@
+attempt_no,family,kind,blind_usdc_day,blind_trades_day,blind_avg_pnl_trade,blind_required_trades_day,blind_target_ratio,blind_pf,blind_max_dd,blind_worst_day,blind_worst_month,blind_active_share,train_usdc_day,train_trades_day,train_avg_pnl_trade,train_pf,rejection_reason
+42,btc_shock_resilience,break5,0.001585,0.002732,0.58,5.172414,0.000528,9.99,-0.58,0.0,0.0,0.002732,-0.013379,0.025992,-0.514737,0.151042,target_ratio_low;active_days_low
+43,us_overlap_retest,delayed_retest,-0.227481,0.877049,-0.25937,999999.0,0.0,0.431032,84.612893,-3.28,-13.273672,0.546448,-0.20431,0.640219,-0.319126,0.316344,negative_net_trade;pf_low;drawdown_high;target_ratio_low
+44,exit_engine,ethbtc_leadership::swing,0.336353,1.628415,0.206552,14.524169,0.112118,1.928796,8.017159,-2.61,3.498402,0.581967,0.240249,1.399453,0.171674,1.755318,target_ratio_low
+45,asia_compression_wakeup,break15,-0.017694,0.125683,-0.140783,999999.0,0.0,0.524902,7.016028,-0.946817,-3.015729,0.103825,-0.054548,0.229822,-0.237347,0.185487,negative_net_trade;pf_low;target_ratio_low;active_days_low
+46,ethbtc_leadership,reclaim5,0.364549,1.551913,0.234903,12.771217,0.121516,2.003297,7.659739,-2.8,2.877628,0.579235,0.252532,1.340629,0.188368,1.756963,target_ratio_low
+47,basis_gate,ethbtc_leadership::calm35,0.369577,1.546448,0.238984,12.553133,0.123192,2.031404,5.819739,-2.8,2.877628,0.579235,0.249781,1.333789,0.187272,1.750332,target_ratio_low
+48,multi_entry_context,ethbtc_leadership::gap20,0.445131,2.120219,0.209946,14.28941,0.148377,1.83664,7.751876,-4.6,4.335518,0.581967,0.312505,1.871409,0.166989,1.619071,target_ratio_low
+49,aggflow_gate,ethbtc_leadership::ai0.02_aq0.8,0.310413,1.535519,0.202155,14.840114,0.103471,1.795498,7.713339,-2.8,2.029648,0.579235,0.203128,1.295486,0.156797,1.594498,target_ratio_low
+50,regime_router,btc_shock_resilience+btc_shock_resilience+btc_shock_resilience+btc_shock_resilience,-0.19177,0.636612,-0.301235,999999.0,0.0,0.512906,70.207912,-2.24,-12.475863,0.543716,-0.203577,0.504788,-0.403293,0.353654,negative_net_trade;pf_low;drawdown_high;target_ratio_low
