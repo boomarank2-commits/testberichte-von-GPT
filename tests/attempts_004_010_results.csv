@@ -1,0 +1,8 @@
+attempt,blind_usdc_day,gap_to_target,blind_trades,blind_pf,best_family,key_learning
+004,-0.008791,3.008791,14,0.340083,break,15m-Kontext plus 1m-Breakout bleibt negativ
+005,-0.025176,3.025176,31,0.370586,vwap_proxy,Uhrzeit/Wochentag als Hauptfilter reicht nicht
+006,-0.036007,3.036007,70,0.148974,break,kurzer 1m-Scalp wird von Fee/Slippage zerstoert
+007,0.000000,3.000000,0,0.000000,panic,Panic-Reversal zu selten und im Blindtest inaktiv
+008,0.013708,2.986292,7,6.523049,ethbtc,erste positive Spur aber viel zu wenig Aktivitaet
+009,0.013708,2.986292,7,6.523049,ethbtc,Stabilitaetsauswahl bestaetigt ETHBTC-Spur
+010,-0.017634,3.017634,38,0.642457,ensemble,OR-Ensemble erhoeht Aktivitaet aber zerstoert Edge
