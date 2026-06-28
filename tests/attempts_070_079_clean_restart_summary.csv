@@ -1,0 +1,11 @@
+attempt_no,name,train_usdc_day,blind_usdc_day,blind_pf,blind_max_dd,rejection
+70,053_fingerprint_strict,-0.692334,-0.926008,0.264645,337.205,rejected
+71,high_ethbtc_low_chop,-0.223676,-0.362995,0.250363,131.963,rejected
+72,fast_time_kill,-0.839310,-1.239690,0.225287,451.889,rejected
+73,runner_wide_tp,-0.201957,-0.261469,0.447964,97.0374,rejected
+74,mae_filter_calm,-0.753819,-0.879416,0.193724,321.010,rejected
+75,quality_low_freq,-0.055532,-0.091329,0.335086,33.706120,best_new_but_rejected
+76,btc_not_dragging,-0.487481,-0.678592,0.303239,247.072,rejected
+77,pullback_reclaim_proxy,-0.462355,-0.620092,0.236284,225.915,rejected
+78,strong_flow_only,-0.376695,-0.476015,0.261104,173.321,rejected
+79,balanced_target,-0.246026,-0.400802,0.202793,145.878,rejected
