@@ -4,17 +4,27 @@ Dieses Repository ist der Arbeitsbereich fuer die systematische Erforschung eine
 
 ## Hauptziel
 
-Aus historischen ETHUSDC-Daten und zusaetzlichen Kontextdaten soll durch wiederholte Backtests, Auswertungen und dokumentierte Fehlschlaege eine realistische Strategie herausgefiltert oder neu entwickelt werden, die mit 100 USDC Einsatz langfristig mindestens 3 USDC pro Tag erreichen kann.
+Aus den bereitgestellten historischen ETHUSDC-Rohdaten und zusaetzlichen Kontextdaten soll durch wiederholte Backtests, Auswertungen und dokumentierte Fehlschlaege eine realistische Strategie herausgefiltert oder neu entwickelt werden, die mit 100 USDC Kapitalrahmen langfristig mindestens 3 USDC pro Tag erreichen kann.
 
 Das Ziel ist bewusst ambitioniert. Jeder Test muss ehrlich dokumentieren, ob er bestanden oder versagt hat. Fehlschlaege sind kein Abbruch, sondern werden als Wissen gespeichert, damit dieselben Sackgassen nicht wiederholt werden.
+
+## Wichtige Klarstellung
+
+Dieses Repository startet nicht bei einer alten Bot-Version und nicht bei einem alten V-Lauf. Fuer dieses Repo zaehlt nur:
+
+1. das jeweils hochgeladene Rohdatenpaket,
+2. der daraus abgeleitete eigene Attempt 001,
+3. danach Attempt 002, Attempt 003 usw.
+
+Alte Bot-Versionen, alte Reports oder fremde Annahmen duerfen nicht als fachlicher Startpunkt verwendet werden, ausser der Nutzer fordert das ausdruecklich an.
 
 ## Harte Projektregeln
 
 - Handelspaar: ETHUSDC.
 - Quote-Waehrung: USDC.
 - Nur Binance Spot, kein Hebel.
-- Keine beliebige 08/15-Strategie blind uebernehmen.
-- Strategien muessen aus den vorhandenen ETHUSDC-Daten, Kontextdaten und Backtests heraus entwickelt werden.
+- Keine beliebige Standardstrategie blind uebernehmen.
+- Strategien muessen aus den vorhandenen ETHUSDC-Rohdaten und Kontextdaten heraus entwickelt werden.
 - Rohdaten gehoeren nicht in dieses Repository.
 - Code, Dokumentation, Testberichte und Erkenntnisse gehoeren in dieses Repository.
 - Jeder fehlgeschlagene Versuch wird dokumentiert.
@@ -25,7 +35,7 @@ Das Ziel ist bewusst ambitioniert. Jeder Test muss ehrlich dokumentieren, ob er 
 
 Der Forschungsprozess laeuft als Schleife:
 
-1. Datenpaket bereitstellen.
+1. Rohdatenpaket bereitstellen.
 2. Datenqualitaet pruefen.
 3. Strategieidee formulieren.
 4. Backtest durchfuehren.
@@ -34,7 +44,7 @@ Der Forschungsprozess laeuft als Schleife:
 7. Erkenntnisse in GitHub speichern.
 8. Naechsten Test aus den bisherigen Erkenntnissen ableiten.
 
-Diese Schleife wird so lange fortgesetzt, bis ein Kandidat gefunden wird, der das Ziel realistisch erfuellt oder klar gezeigt wird, welche Marktgrenzen das Ziel verhindern.
+Diese Schleife wird pro Chat-Durchlauf so weit wie moeglich fortgesetzt. Das Repo dient als Gedaechtnis, damit spaetere Durchlaeufe nicht wieder bei null anfangen.
 
 ## Repository-Zweck
 
@@ -50,10 +60,12 @@ Dieses Repo ist nicht der Ort fuer grosse Rohdaten. Es ist der Ort fuer:
 
 ## Aktueller Startpunkt
 
-V20 ist laut Kontext vollstaendig durchgelaufen. Verwendete Datenquellen sind unter anderem:
+Startpunkt ist das hochgeladene Rohdatenpaket `gpt_raw_market_dataset_20260628.zip`.
+
+Darin enthaltene Datenquellen laut erster Pruefung:
 
 - ETHUSDC 1m Candles inkl. Kline-Orderflow
-- ETHUSDC HTF 5m/15m/30m/1h/4h/1d, aus 1m abgeleitet
+- abgeleitete oder ableitbare HTF-Daten aus 1m
 - Binance ETHUSDC exchange_info
 - ETHUSDC aggTrade-Minutenfeatures
 - BTCUSDC 1m
@@ -61,7 +73,6 @@ V20 ist laut Kontext vollstaendig durchgelaufen. Verwendete Datenquellen sind un
 - ETHUSDT 1m
 - USDCUSDT 1m
 - data_catalog.json
-- Backtest-Run `run_20260628_101554`
 
 Noch nicht sauber backtestfaehig:
 
