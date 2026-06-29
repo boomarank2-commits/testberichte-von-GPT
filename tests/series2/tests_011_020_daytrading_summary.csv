@@ -1,0 +1,11 @@
+test_no,name,train_usdc_day,blind_usdc_day,blind_pf,blind_trades_day,blind_avg_pnl_trade,rejection_reason
+17,range_support_bounce_eth,-0.031790,-0.014087,0.530617,0.109590,-0.128540,train_nonpositive;blind_nonpositive;pf_low;below_attempt053;target_ratio_low
+12,rsi_bollinger_reversion_eth,-0.069196,-0.077884,0.399535,0.304111,-0.256104,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+16,macd_rsi_momentum_scalp_eth,-0.153048,-0.113394,0.473152,0.638360,-0.177634,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+18,liquidity_sweep_reclaim_eth,-0.123266,-0.124987,0.536463,0.591784,-0.211204,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+15,session_open_range_breakout_eth,-0.150701,-0.244221,0.455642,0.865758,-0.282089,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+20,volatility_squeeze_breakout_eth,-0.101688,-0.250378,0.335128,0.830142,-0.301609,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+14,vwap_bounce_eth,-0.431285,-0.446462,0.383365,1.975354,-0.226016,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+13,donchian_breakout_eth,-0.284208,-0.495863,0.416435,1.813709,-0.273397,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+11,ema_trend_pullback_eth,-0.709763,-0.835028,0.417516,3.704131,-0.225432,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
+19,supertrend_atr_continuation_eth,-0.958538,-1.158328,0.449266,4.983590,-0.232428,train_nonpositive;blind_nonpositive;pf_low;drawdown_high;below_attempt053;target_ratio_low
