@@ -1,0 +1,11 @@
+attempt_no,name,method,train_usdc_day,blind_usdc_day,blind_pf,blind_trades_day,blind_avg_pnl_trade,rejection_reason
+87,cell_broad_timekill,train_cells,0.000000,0.000000,0.000000,0.000000,0.000000,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+88,cell_score_combo,cell_plus_score,-0.000973,-0.001306,0.881354,0.024658,-0.052950,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+80,lead_flow_tight,manual_score,-0.007753,-0.003326,0.906666,0.101370,-0.032811,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+89,consensus_high_precision,cell_plus_score,-0.001629,-0.004547,0.522610,0.024658,-0.184404,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+82,shock_resilience,manual_score,-0.012256,-0.006604,0.561754,0.043836,-0.150661,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+81,swing_runner,manual_score,-0.007399,-0.009159,0.518047,0.041096,-0.222872,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+83,active_reclaim,manual_score,-0.010729,-0.011090,0.516984,0.046575,-0.238107,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+84,cell_high_goodrate,train_cells,-0.003273,-0.017318,0.196713,0.057534,-0.301003,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+86,cell_rare_strong_runner,train_cells,-0.000610,-0.047888,0.234009,0.123288,-0.388426,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
+85,cell_balanced_mae,train_cells,-0.008422,-0.051687,0.269782,0.161644,-0.319759,train_nonpositive;blind_nonpositive;pf_low;target_ratio_low
